@@ -14,7 +14,6 @@ struct GeodeticCoordinate {
  * @brief Simple 3D Cartesian coordinate in ECI
  */
 struct ECICoordinate {
-	// TODO Ergänzen Sie Variablen und Funktionalitäten
 	double x;
 	double y;
 	double z;
