@@ -1,24 +1,28 @@
 #ifndef COORDINATES_H_
 #define COORDINATES_H_
 
+#define RADIUS_EARTH 6378.137 // in [km]
 
 struct GeocentricCoordinate {
-	// TODO Ergänzen Sie Variablen und Funktionalitäten
+    double latitude; // geocentric latitude [rad]
+    double longitude; // longitude [rad]
+    double height; // height above spherical Earth [km]
 };
 
 struct GeodeticCoordinate {
-	// TODO Ergänzen Sie Variablen und Funktionalitäten
+    double latitude; // geodetic latitude [rad]
+    double longitude; // longitude [rad]
+    double height; // height above WGS-84 ellipsoid [km]
 };
 
 /**
  * @brief Simple 3D Cartesian coordinate in ECI
  */
 struct ECICoordinate {
-	double x;
-	double y;
-	double z;
+    double x;
+    double y;
+    double z;
 };
-
 
 
 /**
