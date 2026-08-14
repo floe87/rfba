@@ -14,3 +14,6 @@ build/
 *.o
 *.obj
 *.exe
+
+# Generated output files
+SGP4-propagation-data.csv
