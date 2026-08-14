@@ -15,8 +15,10 @@ build/
 *.obj
 *.exe
 
-# Generated output files
-SGP4-propagation-data.csv
-contact-data.csv
-jd-and-eci-data.csv
-jd-and-tracking-data.csv
+# Generated output files from ueb2
+/ueb2/SGP4_Code/SGP4-propagation-data.csv
+
+# Generated output files from ueb3
+/ueb3/uebung3_code/contact-data.csv
+/ueb3/uebung3_code/jd-and-eci-data.csv
+/ueb3/uebung3_code/jd-and-tracking-data.csv
