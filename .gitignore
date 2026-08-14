@@ -17,3 +17,6 @@ build/
 
 # Generated output files
 SGP4-propagation-data.csv
+contact-data.csv
+jd-and-eci-data.csv
+jd-and-tracking-data.csv
