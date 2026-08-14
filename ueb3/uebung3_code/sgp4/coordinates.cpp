@@ -1,5 +1,4 @@
 #include "coordinates.h"
-
 #include "../helper/mathhelper.h"
 #include "timeDate.h"
 #include <cmath>
@@ -50,7 +49,7 @@ ECICoordinate convertGeodeticToECI(const GeodeticCoordinate &geodCoord, double j
     const double S = pow((1 - f), 2.0) * C;
     const double localSiderialTime = computeGMST(jd) + geodCoord.longitude;
 
-    // ECI-Coordinates for object at height h over the surface of WGS84 ellipsoid
+    // ECI-Coordinates for object at height 'h' over the surface of WGS84-ellipsoid
     eciCoord.x = static_cast<float>((a * C + geodCoord.height) * cos(geodCoord.latitude) * cos(localSiderialTime));
     eciCoord.y = static_cast<float>((a * C + geodCoord.height) * cos(geodCoord.latitude) * sin(localSiderialTime));
     eciCoord.z = static_cast<float>((a * S + geodCoord.height) * sin(geodCoord.latitude));

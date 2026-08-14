@@ -1,0 +1,16 @@
+# CLion / JetBrains
+.idea/
+**/.idea/
+
+# CMake build directories
+cmake-build-*/
+**/cmake-build-*/
+
+# Build directories
+build/
+**/build/
+
+# Compiled files
+*.o
+*.obj
+*.exe
