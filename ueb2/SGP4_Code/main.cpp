@@ -9,6 +9,8 @@
 #include "sgp4/coordinates.h"
 #include "sgp4/SGP4Propagator.h"
 
+//SS26 Raumfahrtbetrieb Übung2
+//Gruppe: Sheridan, Reiter, Cotadamo, Rühlmann
 
 int main(int argc, char *argv[]) {
     // File with TLEs
@@ -113,7 +115,7 @@ int main(int argc, char *argv[]) {
     myFile << fixed << setprecision(8);
 
     // 100 min period; 5 min intervall
-    //for (int elapsedTimeInMin = 0; elapsedTimeInMin <= 100; elapsedTimeInMin += 1) {
+    //for (int elapsedTimeInMin = 0; elapsedTimeInMin <= 100; elapsedTimeInMin += 5) {
     // 3 * Orbit period; 1 min intervall
     for (int elapsedTimeInMin = 0; elapsedTimeInMin <= 3 * orbitPeriodInMin; elapsedTimeInMin += 1) {
         ECICoordinate position{}, velocity{};

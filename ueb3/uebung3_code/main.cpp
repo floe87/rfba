@@ -9,6 +9,8 @@
 #include "sgp4/coordinates.h"
 #include "sgp4/SGP4Propagator.h"
 
+//SS26 Raumfahrtbetrieb Übung3
+//Gruppe: Sheridan, Reiter, Cotadamo, Rühlmann
 
 int main(int argc, char *argv[]) {
     // File with OMMS

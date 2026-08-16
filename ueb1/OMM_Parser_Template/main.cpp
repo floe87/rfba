@@ -4,8 +4,10 @@
 #include <map>
 #include "omm.h"
 #include "ommreader.h"
-
 using namespace std;
+
+//SS26 Raumfahrtbetrieb Übung1
+//Gruppe: Sheridan, Reiter, Cotadamo, Rühlmann
 
 int main(int argc, char *argv[]) {
     // File with OMMs

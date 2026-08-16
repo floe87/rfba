@@ -1,3 +1,5 @@
+#SS26 Raumfahrtbetrieb Übung Projekt CMake List
+
 cmake_minimum_required(VERSION 3.16)
 
 project(rfba LANGUAGES CXX)
